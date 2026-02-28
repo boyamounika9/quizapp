@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    gap: 15px; 
 }
 button{
     background-color: rgb(118, 118, 223);
@@ -28,6 +29,7 @@ button{
     color: aliceblue;
     border: none;
     cursor: pointer;
+
 
 }
 #score{

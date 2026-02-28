@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(234, 239, 244);
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+#quiz-container{
+    margin-bottom: 20px;
+}
+#options-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(118, 118, 223);
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+
+}
+#score{
+    font-weight: bold;
+}
